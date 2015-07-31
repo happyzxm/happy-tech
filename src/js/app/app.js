@@ -11,13 +11,20 @@ define('app', ['angular', 'angular-bootstrap', 'angular-hljs'], function (angula
             modules: [
                 {
                     order: 1,
+                    key: 'jquery',
+                    name: 'jQuery',
+                    src: '../jquery'
+                    //desc: 'AngularJS是一款优秀的前端JS框架，它有很多优秀的特性如：MVVM、模块化、自动双向数据绑定、语义化标签、依赖注入等等'
+                },
+                {
+                    order: 2,
                     key: 'angular',
                     name: 'AngularJS',
                     src: '../angular'
                     //desc: 'AngularJS是一款优秀的前端JS框架，它有很多优秀的特性如：MVVM、模块化、自动双向数据绑定、语义化标签、依赖注入等等'
                 },
                 {
-                    order: 2,
+                    order: 3,
                     key: 'icons',
                     name: 'Icons',
                     src: '../icons',
